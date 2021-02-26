@@ -24,12 +24,14 @@ body {
   color: rgb(119, 64, 101);
   text-decoration: none;
   cursor: pointer;
+  z-index: 100;
 }
 
 .navbar .brand a {
   font-size: xx-large;
   letter-spacing: 3px;
   font-weight: lighter;
+  z-index: 100;
 }
 
 .cart a
@@ -52,7 +54,7 @@ body {
 
 .cover-split .left {
   flex: 48%;
-  height: 100vh;
+  height: 100vmin;
 
   display: flex;
   flex-direction: column;
@@ -120,7 +122,8 @@ body {
   background-color: white;
   flex: 50%;
   border: none;
-  height: 100vh;
+  height: 100vmin;
+
 
   display: flex;
   flex-direction: column;
@@ -147,6 +150,7 @@ body {
   border: 1px solid rgb(119, 64, 101);
   outline: none;
   width: 250px;
+  z-index: ;
 }
 .right-info .sub button {
   top: 0px;
@@ -172,3 +176,36 @@ border-radius: -20px;
   
 text-decoration: none;
 }
+
+.section2
+{
+  margin-top: 5rem;
+}
+
+.section2 .explore
+{
+
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+
+}
+
+.explore .div1
+{
+  flex: 50%;
+}
+.explore .div2
+{
+  flex: 50%;
+}
+
+
+footer
+{
+  display: flex;
+  height: 150px;
+  background-color: pink;
+}
+/* **************media queries********************** */
+
